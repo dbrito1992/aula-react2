@@ -7,7 +7,7 @@ module.exports = {
     'plugin:react/recommended',
     'airbnb',
     'prettier',
-    'prettier/react'
+    'prettier/react',
   ],
   globals: {
     Atomics: 'readonly',
@@ -24,7 +24,7 @@ module.exports = {
   plugins: [
     'react',
     'prettier',
-    'react-hooks'
+    'react-hooks',
   ],
   rules: {
     'prettier/prettier': 'error',
@@ -32,6 +32,6 @@ module.exports = {
     'import/prefer-default-export': 0,
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-    'react/react-in-jsx-scope': 0
+    'react/react-in-jsx-scope': 0,
   },
 };
