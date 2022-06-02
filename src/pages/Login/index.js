@@ -8,6 +8,7 @@ export default function Login() {
       <Title isRed={false}>Hello World!</Title>
       <small>Teste de styled!</small>
       <Paragrafo> ghrdhguidhguidh </Paragrafo>
+      <button type="button">Enivar</button>
     </Container>
   );
 }
