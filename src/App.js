@@ -1,14 +1,15 @@
-import Login from './pages/Login';
+import { BrowserRouter } from 'react-router-dom';
 import GlobalStyle from './styles/GlobalStyle';
 import Header from './components/Header';
+import Run from './routes';
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Header />
-      <Login />
+      <Run />
       <GlobalStyle />
-    </>
+    </BrowserRouter>
   );
 }
 
